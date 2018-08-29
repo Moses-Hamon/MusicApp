@@ -89,16 +89,23 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="ctlFields.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Edit.aspx" />
     <Content Include="Web.config" />
-    <None Include="Connected Services\MusicServiceProxy\MusicService.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connected Services\MusicServiceProxy\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ctlFields.ascx.cs">
+      <DependentUpon>ctlFields.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ctlFields.ascx.designer.cs">
+      <DependentUpon>ctlFields.ascx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -117,6 +124,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Connected Services\MusicServiceProxy\MusicService.wsdl" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

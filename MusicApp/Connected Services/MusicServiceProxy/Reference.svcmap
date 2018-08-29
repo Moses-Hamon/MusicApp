@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e3e41cfc-3592-4847-a6c0-4b0db7214aab" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="abf27207-a5a0-4faa-83f8-70ee362bd9e3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,8 +22,8 @@
     <MetadataSource Address="http://localhost:65392/MusicService.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="MusicService.disco" MetadataType="Disco" ID="b16f9278-5122-4b2b-b843-aa1fba4fe9e1" SourceId="1" SourceUrl="http://localhost:65392/MusicService.asmx?disco" />
-    <MetadataFile FileName="MusicService.wsdl" MetadataType="Wsdl" ID="511c1aea-3eac-4462-824f-8d236c71a45f" SourceId="1" SourceUrl="http://localhost:65392/MusicService.asmx?wsdl" />
+    <MetadataFile FileName="MusicService.disco" MetadataType="Disco" ID="c8cc8157-c4b0-4f07-b932-95d09aee434c" SourceId="1" SourceUrl="http://localhost:65392/MusicService.asmx?disco" />
+    <MetadataFile FileName="MusicService.wsdl" MetadataType="Wsdl" ID="b316ce42-208c-49c8-bb4f-b042e72c404b" SourceId="1" SourceUrl="http://localhost:65392/MusicService.asmx?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

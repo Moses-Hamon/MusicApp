@@ -10,15 +10,24 @@
 namespace MusicApp {
     
     
-    public partial class Edit {
+    public partial class ctlFields {
         
         /// <summary>
-        /// form1 control.
+        /// lblLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label lblLabel;
+        
+        /// <summary>
+        /// txtTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTextBox;
     }
 }
