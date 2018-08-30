@@ -82,6 +82,7 @@
     <Content Include="Connected Services\MusicServiceProxy\MusicApp.MusicServiceProxy.SelectOneResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="ctlMenu.ascx" />
     <None Include="Connected Services\MusicServiceProxy\MusicService.disco" />
     <None Include="Connected Services\MusicServiceProxy\configuration91.svcinfo" />
     <None Include="Connected Services\MusicServiceProxy\configuration.svcinfo" />
@@ -92,6 +93,7 @@
     <Content Include="ctlFields.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Edit.aspx" />
+    <Content Include="EditFieldsascx.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -121,7 +123,21 @@
     <Compile Include="Edit.aspx.designer.cs">
       <DependentUpon>Edit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditFieldsascx.ascx.cs">
+      <DependentUpon>EditFieldsascx.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditFieldsascx.ascx.designer.cs">
+      <DependentUpon>EditFieldsascx.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ctlMenu.ascx.cs">
+      <DependentUpon>ctlMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ctlMenu.ascx.designer.cs">
+      <DependentUpon>ctlMenu.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\MusicServiceProxy\MusicService.wsdl" />

@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Edit.aspx.cs" Inherits="MusicApp.Edit" %>
-<%@ Register TagPrefix="ctl" TagName="Fields" Src="~/ctlFields.ascx" %>
+﻿<%@ Page Title="Edit Page" Language="C#" AutoEventWireup="true" CodeBehind="Edit.aspx.cs" Inherits="MusicApp.Edit" %>
+<%@ Register TagPrefix="ctl" TagName="Editfields" Src="~/EditFieldsascx.ascx" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -11,11 +11,10 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="frmEdit" runat="server">
         <div class="container">
-            <ctl:Fields ID="ctlId" runat="server" Label="hdhfjfhsdf" />
-            <ctl:Fields ID="ctlArtist" runat="server" Label="Another Test" />
-            <ctl:Fields ID="ctlSomthing" runat="server    
+            <ctl:EditFields ID="ctlFields" runat="server" Label="fields" />
+            <asp:Button ID="btnAdd" runat="server" Font-Size="Medium" CssClass="btn" Text="Add" OnClick="btnAdd_Click" />
         </div>
     </form>
 </body>

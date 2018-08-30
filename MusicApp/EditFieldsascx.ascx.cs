@@ -7,17 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace MusicApp
 {
-    public partial class Edit : System.Web.UI.Page
+    public partial class EditFieldsascx : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var svc = new MusicServiceProxy.MusicServiceSoapClient();
 
-        }
-
-        protected void btnAdd_Click(object sender, EventArgs e)
-        {
-           
         }
     }
 }
